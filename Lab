@@ -1,0 +1,43 @@
+#worked with Daniela
+#1a
+human_age = 3
+dog_years = 7
+human_dog = human_age * dog_years
+print ("an age", human_age,"human should be" ,human_dog, "in dogs age")
+# terminal output is "an age 3 human should be 21 in dogs age"
+#1b
+human_age = float(input("enter your age: "))
+dog_years = 7 
+human_dog = (human_age * dog_years)
+months = (human_dog*12) - int(human_dog)*12
+days = (months*30) - int(months)*30
+print ("an age", human_age, "human should be",human_dog, "years", + months,"months", + days, "days in dogs age")
+# terminal output is "an age 3.0 human should be 21.0 years 0.0 months 0.0 days in dogs age"
+#2a
+human_age = 16
+cat_age = 9
+human_cat = human_age / cat_age
+print ("an age", human_age, "human should be",human_cat, "years in cats age")
+# terminal output is "an age 16 human should be 1.7777777777777777 years in cats age"
+#2b
+human_age = 16
+cat_age = 9
+human_cat = human_age / cat_age
+months = int(human_cat*12)
+days = int(months*30)
+print ("an age", human_age, "human should be",human_cat, "years", + months,"months", + days, "days in cats age")
+#terminal output is "an age 16 human should be 1.7777777777777777 years 9.333333333333332 months 9.999999999999943 days in cats age"
+#3a
+human_age = 25
+horse_age = human_age **2 / 7 - 47 + 12 * 3
+human_horse = horse_age
+print ("an age", human_age, "human should be",human_horse, "in horse years")
+# terminal poutput is "an age 25 human should be 78.28571428571429 in horse years"
+#3b
+human_age = 25
+horse_age = human_age **2 / 7 - 47 + 12 * 3
+human_horse = horse_age
+months = (human_horse*12) - int(human_horse)*12
+days = (months*30) - int(months)*30
+print ("an age", human_age, "human should be",human_horse, "years", months, "months", days, "days", "in horse years")
+# terminal output is "an age 25 human should be 78.28571428571429 years 3.4285714285715585 months 12.857142857146755 days in horse years"
